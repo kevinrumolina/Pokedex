@@ -1,7 +1,7 @@
 .logo {
     position: absolute;
     top: 25px;
-    width: 250px
+    width: 250px;
     left: calc(50vw - 125px);
 }
 
