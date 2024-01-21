@@ -33,7 +33,7 @@ function DetailsView() {
             <Link className='button' to='/'>Home</Link>
             {pokemonData?.name && <PokemonDetail pokemonData={pokemonData} />}
             <div className='bottom-container'>
-                <div className='button' onClick={() => setPokemonId(pokemonId - 1)}>#{pokemonId - 1}</div>
+                {pokemonId >= 2 && <div className='button' onClick={() => setPokemonId(pokemonId - 1)}>#{pokemonId - 1}</div>}
                 <div className='button' onClick={() => setPokemonId(pokemonId + 1)}>#{pokemonId + 1}</div>
             </div>
         </>
