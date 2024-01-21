@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  width: 100vw;
+  height: 100vh;
+  background-color: #dc0c2d;
+}
+
+.main-container {
+  width: 80vw;
+  height: 80vh;
+  margin: 10vh auto;
+  background-color: #dedede;
+  border-radius: 15px;
+  padding: 15px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

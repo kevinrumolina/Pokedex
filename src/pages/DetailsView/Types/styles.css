@@ -1,0 +1,19 @@
+.types {
+    background-color: #fec90d;
+    width: 200px;
+    margin: 15px 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.types :first-child {
+    width: 30%;
+}
+.types > :last-child {
+    width: 70%;
+    padding: 5px;
+    background-color: #fbe183;
+}

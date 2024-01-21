@@ -1,0 +1,44 @@
+.logo {
+    position: absolute;
+    top: 25px;
+    left: calc(50vw - 135px);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.top-container {
+    max-height: 70vh;
+    overflow: scroll;
+}
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #29A9FC;
+    color: #fec90d;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+    .logo {
+        width: 500px;
+        top: 0;
+        left: calc(50vw - 250px);
+    }
+
+    ul {
+        gap: 15px;
+    }
+}

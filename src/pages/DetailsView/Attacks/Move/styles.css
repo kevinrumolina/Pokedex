@@ -1,0 +1,8 @@
+.move {
+    gap: 15px;
+    background-color: #fbe183;
+    border: 1px solid #29A9FC;
+    padding: 15px;
+    text-align: center;
+    height: 30px;
+}
